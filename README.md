@@ -6,3 +6,4 @@ Reference:
 2. [TypeScript-Node-Starter](https://github.com/microsoft/TypeScript-Node-Starter)
 3. [Bulletproof node.js project architecture](https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf)
 4. [Using ESLint and Prettier in a TypeScript Project](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)
+5. [Debugging TypeScript - Visual Studio Code](https://code.visualstudio.com/docs/typescript/typescript-debugging)
