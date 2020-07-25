@@ -5,8 +5,8 @@
     "main": "index.ts",
     "scripts": {
         "start": "ts-node-dev --respawn --transpile-only --no-notify src/index.ts ",
-        "build": "npm run lint && npm run tsc",
-        "serve": "npm run tsc && node dist/index.js",
+        "build": "concurrently \"npm:lint\" \"npm:tsc\"",
+        "serve": "concurrently \"npm:tsc\" \"node dist/index.js\"",
         "tsc": "tsc",
         "lint": "eslint \"./src/**/*.{js,ts}\" --quiet --fix",
         "test": "jest",
@@ -33,6 +33,7 @@
         "typescript": "^3.9.7"
     },
     "dependencies": {
+        "concurrently": "^5.2.0",
         "express": "^4.17.1",
         "mongoose": "^5.9.25"
     },
