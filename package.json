@@ -5,6 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "tsc": "tsc",
+    "git": "git add . && git commit -m",
+    "postgit": "git pull && git push && git status",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
